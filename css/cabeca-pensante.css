@@ -1,0 +1,29 @@
+/*==== CABECA PENSANTE ====*/
+.cabeca-img {
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.titulo_cabeca {
+    margin-left: 5%;
+}
+.txt-cabecapensante {
+    margin-bottom: 15%;
+}
+
+
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:768px) {
+    .cabeca-img {
+        margin: 75px 0px 0px 20px;
+    }
+    .txt-cabecapensante {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .titulo_cabeca {
+        margin-left: 2%;
+    }
+}

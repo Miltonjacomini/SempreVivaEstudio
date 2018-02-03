@@ -1,0 +1,33 @@
+/*==== VALORIZACAO ====*/
+.valorizacao {
+    background: url(../img/quem_somos/bg_quem_somos.png) center / cover transparent;
+    background-size: cover !important;
+    width: 100%;
+}
+.valorizacao-margin {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.amorcostura-img {
+    width: 80%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+}
+.titulo-img {
+    width: 100%;
+    margin-bottom: 10%;
+}
+.valorizacao-img {
+    width: 100%;
+}
+
+
+/*==== ESTILOS ESPECIAIS (min-width: 1024px) ====*/
+@media screen and (min-width: 1024px){
+ 
+    .valorizacao-margin {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+}

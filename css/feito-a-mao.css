@@ -1,0 +1,31 @@
+.feito-a-mao-container {
+    overflow: hidden;
+}
+
+.feito-a-mao {
+    width: auto;
+    height: 380px;
+    margin-left: -450px;
+    display: block;
+}
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:768px) {
+    .feito-a-mao {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        display: flex;
+    }
+}
+
+/*==== ESTILOS ESPECIAIS (min-width: 1024px) ====*/
+@media screen and (min-width: 1024px){
+    .feito-a-mao {
+        width: 100%;
+        
+    }
+}

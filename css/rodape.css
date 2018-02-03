@@ -1,0 +1,85 @@
+/*==== CONTATO ====*/
+.foto-taga-container {
+    overflow: hidden;
+}
+
+.foto-taga {
+    width: auto;
+    height: 380px;
+    margin-left: -320px;
+    display: block;
+}
+
+.img-criadopor {
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.contato-container {
+    flex-direction: row;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.txt-email {
+    display: flex;
+    float: left;
+}
+
+.img-email {
+    width: 40px;
+    height: auto;
+    text-align: center;
+    margin-left: 43%;
+}
+
+.rodape-container {
+    background: url(../img/quem_somos/bg_quem_somos.png) center / cover transparent;
+    background-size: cover !important;
+    width: 100%;
+    height: auto;
+}
+
+.desenv-criado {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:500px) {
+    .img-email {
+        margin-left: 3%;
+    }
+}
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:768px) {
+    .visita p {
+        margin-top: 3%;
+    }
+    .img-criadopor {
+        width: 50%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+    .txtASempreviva {
+        padding-left: 0px;
+    }
+  
+    .bg-contato-email div p {
+        text-align: right;
+    }
+    .foto-taga {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        display: flex;
+    }
+   
+}
+

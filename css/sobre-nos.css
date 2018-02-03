@@ -1,0 +1,37 @@
+/*==== SOBRE-NOS ====*/
+.sobre-nos {
+    background: url(../img/quem_somos/bg_quem_somos.png) center / cover transparent;
+    width: 100%;
+    height: auto;
+}
+
+.sobrenos-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.sobre-nos-row {
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:768px) {
+    .margin-sobre-nos {
+        margin-top: 6%;
+    }
+}
+
+/*==== ESTILOS ESPECIAIS (min-width: 1024px) ====*/
+@media screen and (min-width: 1024px){
+    .sobre-nos-row {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .sobrenos-img {
+        width: 100%;
+        margin-left: 8%;
+    }
+}

@@ -1,0 +1,313 @@
+/*==== GERAIS ====*/
+@font-face { font-family: JollysightSans; src: url(../fonts/JollysightSans.ttf); }
+
+.font_Jolly {
+	font-size: 20px;
+	font-family: JollysightSans;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+}
+
+.line {
+   display: none;
+}
+.menu-logo2 {
+    display: none;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-top: 20px;
+}
+
+.mg-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.mg-bottom-20 {
+    margin-bottom: 10px;
+}
+
+.btn-default {
+    width: 120px;
+    height: auto;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    letter-spacing: 4px;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.btn-default:hover {
+    background-color: #e1e1e1;
+    color: black;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.6s;
+}
+
+.btn-default:focus,
+.btn-default:active {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+}
+
+.padding-default-top-bottom {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+/* === NAV === */
+.menu-logo img {
+    max-height: 40px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.navbar-default {
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.05);
+    border-color: rgba(34,34,34,.05);
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color:  #c8c8c8;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    color: #222;
+}
+
+.navbar-default .nav > li > a.menu-bg-black,
+.navbar-default .nav > li > a.menu-bg-black:focus {
+    color: #fff !important;
+    background-color: #000 !important;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+    color: #c8c8c8;
+}
+
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+    color:  #c8c8c8 !important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+/* Simple LightBox Arrow */
+button.sl-prev .fa, button.sl-next .fa {
+    font-size: 35px !important;
+    font-weight: bold;
+}
+
+/*==== COTIDIANO ====*/
+.cotidiano {
+    background-image: url(../img/cotidiano/surf_coqueiro_bolsa_praia_estudio_sempreviva.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    width: 100%;
+    height: 140px;
+}
+.cotidiano-cont {
+    margin-top: 13%;
+    padding-left: 8%;
+}
+.titulo_cotidiano {
+    text-align: right;
+}
+.img-redes {
+    width: 30px;
+}
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:768px) {
+    .menu-logo2 {
+        display: inline-block;
+        margin-top: 3px;
+    }
+    .menu-logo {
+        display: none;
+    }
+    .padding-default-top-bottom {
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
+    }
+    .navbar-nav {
+        font-size: 11px;
+    }
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+    }
+    .navbar-default .navbar-header .navbar-brand {
+        color: #000;
+    }
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #c8c8c8;
+    }
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #000;
+    }
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #c8c8c8;
+    }
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+    .navbar-default.affix .navbar-header .navbar-brand {
+        color:  #c8c8c8;
+    }
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #c8c8c8;
+    }
+    .menu-logo img {
+        margin-top: 4.5%;
+        margin-left: 30%;
+    }
+    .sobrenos-img {
+        width: 70%;
+        margin: 40px 0px 10px 120px;
+    }
+    .txt-sobrenos {
+        margin-bottom: 50px;
+    }
+    .cotidiano-cont {
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .btn-blog {
+        margin-top: 5%;
+    }
+    .div_instagram {
+        width: 8%;
+    }
+    .div_facebook {
+        width: 5%;
+    }
+    .img_instagram {
+        width: 30px;
+    }
+    .img_facebook {
+        width: 30px;
+    }
+    .carousel-indicators {
+        padding-left: 5%;
+        bottom: 0px;
+    }
+   
+}
+
+/*==== ESTILOS ESPECIAIS (min-width: 1024px) ====*/
+@media screen and (min-width: 800px) {
+  .menu-logo2 {
+      display: none;
+  }
+  .menu-logo {
+      display: inline-block;
+  }
+}
+
+/*==== ESTILOS ESPECIAIS (min-width: 1024px) ====*/
+@media screen and (min-width: 1024px){
+    .navbar-nav li a {
+        margin-top: 2.5%;
+    }
+    .titulo_cotidiano {
+        text-align: right;
+    }
+    .amorcostura-img {
+        margin-top: 10%;
+    }
+    .img-criadopor {
+        width: 25%;
+        margin-bottom: 1%;
+    }
+    .line {
+        width: 32%;
+        height: 47px;
+        border-bottom: 1px solid black;
+        position: absolute;
+        display: flex;
+        margin-bottom: 2%;
+    }
+}
+
+/*==== ESTILOS ESPECIAIS (min-width: 1280px) ====*/
+@media screen and (min-width: 1280px){
+    .navbar-nav {
+        margin-right: 3%;
+    }
+  	.navbar-default {
+  		height: 60px;
+  	}
+  	.lg-space {
+  		margin-top: 3px;
+  	}
+}
+
+@media screen and (min-width: 1920px){
+    .sobrenos-img {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .bg-contato-email {
+      margin-left: 0px;
+    }
+
+    .line {
+        margin-left: 2%;
+    }
+}

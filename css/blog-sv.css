@@ -1,0 +1,75 @@
+/*==== MANIFESTO ====*/
+.manifesto-bg {
+    background: url(../img/quem_somos/bg_quem_somos.png) center / cover transparent;
+    background-size: cover !important;
+    width: 100%;
+    height: auto;
+}
+.manifesto-margin {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.titulo-manifesto {
+    margin-bottom: 5%;
+    margin-left: 2%;
+    text-align: center;
+}
+.img-thumbnail {
+    border: none;
+    margin-bottom: 5%;
+}
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70,70,70,.25);
+}
+.carousel-indicators .active {
+    background-color: #444;
+}
+
+.btn-blog {
+    width: 120px;
+    height: auto;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    letter-spacing: 4px;
+    background-color: transparent;
+    font-size: 1em;
+    margin-top: 10%;
+
+}
+
+.btn-blog:hover {
+    background-color: #e1e1e1;
+    color: black;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.6s;
+}
+
+.btn-blog:focus,
+.btn-blog:active {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+}
+
+
+/*==== ESTILOS ESPECIAIS (min-width:768px) ====*/
+@media(min-width:768px) {
+    .manifesto-margin {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titulo-manifesto {
+        margin-bottom: 2%;
+    }
+    .txt-manifesto {
+        padding-left: 8%;
+    }
+}
